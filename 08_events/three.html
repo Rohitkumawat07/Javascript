@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new Rohit</title>
+</head>
+
+<body>
+    <h1>Hay Rohit</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+    // const sayDate = function(str){
+    //   console.log(str ,Date.now());
+    //   }
+    // const intervalId = setInterval(sayDate,2000,'hi')
+    // clearInterval(intervalId)
+
+
+
+    let intervalId;
+
+    const startbutton = function () {
+        const sayDate = function (str) {
+            console.log(str, Date.now());
+        }
+        intervalId = setInterval(sayDate, 1000, 'hi')
+    };
+
+
+    const stopbutton = function () {
+        clearInterval(intervalId)
+        intervalId = null;
+    };
+
+    document.querySelector('#start').addEventListener('click', startbutton)
+    document.querySelector('#stop').addEventListener('click', stopbutton)
+
+
+</script>
+
+</html>
