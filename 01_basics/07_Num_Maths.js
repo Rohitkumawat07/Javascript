@@ -7,7 +7,7 @@ const balance = new Number(100); // object
 
 
 // console.log(balance.toString().length);
-// console.log(balance.toFixed(2));
+console.log(balance.toFixed(2));
 
 const otherNum = 123.456789;
 // console.log(otherNum.toPrecision(4)); // 123.5

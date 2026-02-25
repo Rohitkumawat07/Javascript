@@ -1,7 +1,5 @@
 // Primtive
 
-const { captureOwnerStack } = require("react");
-
 // 7 types: String, NUmber, Boolean,null, undefined, Symbol, BigInt
 
 const score = 100; // number

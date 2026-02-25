@@ -11,12 +11,13 @@ const dc_heros = ["Superman", "Batman", "Wonder"];
 // console.log(allHeros);
 
 // Using spread operator (ES6+)
-const allHeros = [...marval_heros, ...dc_heros];
+// const allHeros = [...marval_heros, ...dc_heros];
 // console.log(allHeros);
 
 const anotherArray = [1,2,[3,4],5,[6,7,[8,9]]]
+// console.log(anotherArray)
 
-const real_anotherArray = anotherArray.flat(2);
+const real_anotherArray = anotherArray.flat(1);
 // console.log(real_anotherArray);
 
 console.log(Array.isArray("Rohit"));

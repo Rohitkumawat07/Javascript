@@ -2,9 +2,6 @@
 
 // alert("Welcome to JavaScript")
 
-let name = "Rohit";
-let age = 22;
-let isLoggedIn = false;
 
 // number
 //  string
@@ -15,6 +12,10 @@ let isLoggedIn = false;
 //  bigint => larger than 2^53 - 1
 
 //objects => key value pair
+
+let name = "Rohit";
+let age = 22;
+let isLoggedIn = false;
 
 console.log(typeof name);
 console.log(typeof age);

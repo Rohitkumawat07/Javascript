@@ -17,10 +17,10 @@ const jsUser = {
 // console.log(jsUser.email);
 // console.log(jsUser['email']);
 
-// console.log(jsUser.Full nmae); can not access because of space in key name
+// console.log(jsUser.Full nmae);//can not access because of space in key name
 // console.log(jsUser["Full nmae"]);
 
-// console.log(jsUser[symbol1]);
+console.log(jsUser[symbol1]);
 
 jsUser.age = 19; // update age
 

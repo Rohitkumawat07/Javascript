@@ -6,16 +6,20 @@
 // console.log(typeof vlaueInNumber);
 
 // let score1 = "33abc"
+// console.log(score1);
+
 // console.log(typeof score1);
 
 // let vlaueInNumber1 = Number(score1);
+// console.log(score1);
+
 // console.log(typeof vlaueInNumber1);
 // console.log(vlaueInNumber1);
 
 // TRUE => 1
 // FALSE => 0
 
-// let isLoggedIn = "false";
+// let isLoggedIn = "true";
 // let booleanIsLoggedIn = Boolean(isLoggedIn);
 // console.log(booleanIsLoggedIn);
 
@@ -64,9 +68,9 @@ num1 = num2 = num3 = 2 + 2;
 
 let gameCounter = 100;
 gameCounter++;
-// console.log(gameCounter);
+console.log(gameCounter);
 gameCounter--;
-// console.log(gameCounter);
+console.log(gameCounter);
 
 ++gameCounter;
 console.log(gameCounter);

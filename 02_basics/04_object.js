@@ -20,7 +20,7 @@ const regularUser = {
     }
 }
 
-// console.log(regularUser.fullname);
+console.log(regularUser.fullname);
 
 const obj1 = { 1: "one" };
 const obj2 = { 2: "two" };
@@ -28,7 +28,7 @@ const obj2 = { 2: "two" };
 // const obj3 = {obj1, obj2};
 // const obj3 = Object.assign({}, obj1, obj2); // Merge obj1 and obj2 into a new object
 
-const obj3 = { ...obj1, ...obj2 }; // Using spread operator to merge obj1 and obj2 into a new object
+// const obj3 = { ...obj1, ...obj2 }; // Using spread operator to merge obj1 and obj2 into a new object
 
 // console.log(obj3);
 

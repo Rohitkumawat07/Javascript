@@ -1,0 +1,1 @@
+const Object.getOwnPropertyDescriptor(MAth,'pI')

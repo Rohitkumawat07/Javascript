@@ -6,7 +6,9 @@ const repoCout = 50;
 // console.log(`Hello my name is ${name} and my repocount is ${repoCout}`);  // String interpolation
 
 const gameName = new String("Rohit kumar "); // String object
-console.log(gameName);
+// console.log(gameName);
+// console.log(typeof gameName);
+
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
